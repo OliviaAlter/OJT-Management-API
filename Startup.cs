@@ -21,7 +21,7 @@ public class Startup
     {
         services.AddApplicationServices(_configuration);
         services.AddControllers();
-        //services.AddCors();
+        services.AddCors();
         services.AddSwaggerGen();
         services.AddIdentityServices(_configuration);
     }
