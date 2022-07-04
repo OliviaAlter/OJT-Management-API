@@ -1,7 +1,6 @@
-﻿using API.Entities;
-using ojt_management_api.Entities;
+﻿using ojt_management_api.Entities;
 
-namespace API.Interfaces;
+namespace ojt_management_api.Interfaces;
 
 public interface ITokenServices
 {

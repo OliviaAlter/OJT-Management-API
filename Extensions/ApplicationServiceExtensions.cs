@@ -1,8 +1,8 @@
-﻿using API.Interfaces;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ojt_management_api.Data;
+using ojt_management_api.Interfaces;
 using ojt_management_api.Services;
 
 namespace ojt_management_api.Extensions;
